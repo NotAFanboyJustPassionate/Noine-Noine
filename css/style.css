@@ -1,0 +1,22 @@
+body{
+    background: black;
+    color: rgb(219, 219, 219)
+}
+
+header img{ 
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+nav a{
+    text-emphasis: none;
+    text-decoration: none;
+    display: inline;
+    margin: 2px;
+    padding: 3px;
+    color: rgba(255,255,255, 0.7);
+}
