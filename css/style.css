@@ -93,7 +93,7 @@ section{
     margin-top: 30px
 }
 
-section:nth-child(even){
+.even{
     background-color: rgba(30, 1, 49, 0.5)
 }
 section img{
@@ -131,7 +131,7 @@ footer p{
     font-size: 0.3em
 }
 #contact p{
-    margin:0;   
+    margin:0;
 }
 
 #contact a{
@@ -139,6 +139,57 @@ footer p{
     color: white
 }
 
+.card{
+  background: #17141d;
+  margin:0 10vw 0 10vw;
+  border-radius: 20px;
+}
+
+.card-header{
+  margin:0;
+  text-align: left;
+  color: #fff;
+  background: linear-gradient(to right top, #2322c6, #5f1ac1, #8212bc, #9d0bb6, #b30db0);
+  border-radius: 20px 20px 0 0;
+}
+
+.card-body{
+  text-align: center;
+  color: #fff;
+  margin: 15px;
+}
+
+.card-body figure img{
+  display:inline-block;
+  width:100%;
+  vertical-align: middle;
+}
+
+.btn{
+  border-radius:10px;
+  background: linear-gradient(to right top, #2322c6, #5f1ac1, #8212bc, #9d0bb6, #b30db0);
+  color: #fff;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  margin: 5px auto;
+  display: inline-block;
+  font-size: 0.4rem;
+  text-shadow: none;
+}
+
+.sizefont{
+  font-size: 0.4rem;
+}
+
+.margin-top-bottom{
+    margin:20px 0 20px 0;
+}
+
+.badge{
+  border-radius: 10px;
+  background: #7700b8;
+  color: #fff;
+
+}
 @media only screen and (min-width: 530px) {
     h1{
         font-size:0.9em;
@@ -167,5 +218,3 @@ footer p{
         text-align: center;
     }
 }
-
-
