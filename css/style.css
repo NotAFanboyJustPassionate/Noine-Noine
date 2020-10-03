@@ -1,10 +1,16 @@
+.nav-active{
+    background-color: rgb(74, 61, 85)
+}
+
 body{
     background: black;
     color: rgb(219, 219, 219)
 }
-
-#teamLogo{
-    margin-left:5px;
+header{
+    text-align: center;
+}
+#collegeLogo{
+    margin: 5px 0px 0px 5px;
 }
 
 .min-ht{
@@ -18,7 +24,7 @@ h1{
 
 nav{
     margin-top: 10px;
-    background: #1F1528;
+    background: rgb(31, 21, 40);
     min-height: 30px;
     overflow: hidden;
     text-align: center;
@@ -38,8 +44,8 @@ nav a{
     text-emphasis: none;
     text-decoration: none;
     display: inline-block;
-    margin: 17px 5px;
-    padding: 3px 3px;
+    margin: 0px 5px;
+    padding: 20px 7px;
     color: rgba(255,255,255, 0.7);
 }
 
@@ -64,6 +70,21 @@ footer{
     margin:0;   
 }
 
-@media screen and(min-width:383){
+#contact a{
+    text-decoration: none;
+    color: white
+}
 
+@media only screen and (min-width: 800px) {
+    #collegeLogo{
+        margin-left:100px;
+        max-height:100px;
+    }
+    nav{
+        text-align: start
+    }
+
+    nav div.col-2{
+        text-align: center;
+    }
 }
