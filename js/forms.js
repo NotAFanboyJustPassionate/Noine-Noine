@@ -55,6 +55,8 @@ document.getElementById("submit").addEventListener("click", function(event){
     
     console.log("Accomodation:", accomodation);
     console.log("Acc Cost:", accCost);
+
+    
     
 });
 
