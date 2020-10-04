@@ -154,7 +154,6 @@ footer p{
 
 .card-header{
   margin:0;
-  text-align: left;
   color: #fff;
   background: linear-gradient(to right top, #2322c6, #5f1ac1, #8212bc, #9d0bb6, #b30db0);
   border-radius: 20px 20px 0 0;
@@ -209,6 +208,10 @@ footer p{
 
 .card h4,.card p,.card label{
   font-size: 0.5em;
+}
+
+#receipt{
+  display: none;
 }
 @media screen and (min-width: 530px) {
     h1{
