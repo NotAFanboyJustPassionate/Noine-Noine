@@ -3,36 +3,71 @@
     grid-template-rows: auto;
     grid-template-columns: 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333%;
 }
-.col-2{
+.col-sm-2{
     grid-column-end: span 2;
 }
-.col-3{
+.col-sm-3{
     grid-column-end: span 3;
 }
-.col-4{
+.col-sm-4{
     grid-column-end: span 4;
 }
-.col-6{
+.col-sm-6{
     grid-column-end: span 6;
 }
-.col-7{
+.col-sm-7{
     grid-column-end: span 7;
 }
-.col-8{
+.col-sm-8{
     grid-column-end: span 8;
 }
-.col-9{
+.col-sm-9{
     grid-column-end: span 9;
 }
-.col-10{
+.col-sm-10{
     grid-column-end: span 10;
 }
-.col-11{
+.col-sm-11{
     grid-column-end: span 11;
 }
-.col-12{
+.col-sm-12{
     grid-column-end: span 12;
 }
-.col-5{
+.col-sm-5{
     grid-column-end: span 5;
 }
+ @media screen and (min-width:1175px){
+    .col-2{
+        grid-column-end: span 2;
+    }
+    .col-3{
+        grid-column-end: span 3;
+    }
+    .col-4{
+        grid-column-end: span 4;
+    }
+    .col-6{
+        grid-column-end: span 6;
+    }
+    .col-7{
+        grid-column-end: span 7;
+    }
+    .col-8{
+        grid-column-end: span 8;
+    }
+    .col-9{
+        grid-column-end: span 9;
+    }
+    .col-10{
+        grid-column-end: span 10;
+    }
+    .col-11{
+        grid-column-end: span 11;
+    }
+    .col-12{
+        grid-column-end: span 12;
+    }
+    .col-5{
+        grid-column-end: span 5;
+    }
+ }
